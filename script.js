@@ -5,8 +5,16 @@ function Login(){
     document.getElementById('body').style.background='url(/images/background5.jpg)';
     document.getElementById('body').style.backgroundSize='cover';    
 }
-function Enter(){
-let username=document.getElementById('input-user').value;
-let password=document.getElementById('input-pass').value;
-alert('Username: '+username +'\n' + 'Password : '+password);
+function Logined(){
+    let username=document.getElementById('login-user').value;
+    let password=document.getElementById('login-pass').value;
+    alert('Username: '+username +'\n' + 'Password : '+password);
 }
+
+
+function Enter(){
+let username=document.getElementById('sign-user').value;
+let password=document.getElementById('sign-pass').value;
+alert('Username: '+username +'\n' + 'Password : '+password+'\n'+ 'Welcome to the Team');
+}
+
