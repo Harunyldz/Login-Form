@@ -15,6 +15,13 @@ function Logined(){
 function Enter(){
 let username=document.getElementById('sign-user').value;
 let password=document.getElementById('sign-pass').value;
-alert('Username: '+username +'\n' + 'Password : '+password+'\n'+ 'Welcome to the Team');
+let passwordControl=document.getElementById('sign-pass-control').value;
+if (password==passwordControl) {
+    alert('Username: '+username +'\n' + 'Password : '+password+'\n'+ 'Welcome to the Team');
+}
+else{
+    alert('Check your password please!');
+}
+
 }
 
