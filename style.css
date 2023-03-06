@@ -35,8 +35,8 @@ button {
 .main {
     width: 400px;
     height: 500px;
-    border-radius: 24px;
-    background-color: aliceblue;
+    border-radius: 90px;
+    background-color: rgb(240, 248, 255, 0.2)
 }
 .main:hover{
     box-shadow: 8px 8px 15px #000;
@@ -54,9 +54,9 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 100px;
+    border-radius: 95px;
     padding: 0 20px;
-    border: 1px solid #fff;
+    border: 1px solid rgba(89, 76, 76, 0.3);
 }
 
 .join>h3 {
@@ -97,7 +97,7 @@ button {
     position: relative;
     gap: 12px;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255, 0.3);
 }
 
 .login>h1 {
